@@ -9,7 +9,7 @@ try:
     import fake_useragent
 except ModuleNotFoundError:
     print("fake_useragent library not found. Installing...")
-    os.system("pip install fake_useragent")
+    os.system("pip install fake-useragent")
     import fake_useragent
 
 
