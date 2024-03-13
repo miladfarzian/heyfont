@@ -1,3 +1,4 @@
 streamlit
 requests
 fonttools
+fake-useragent
