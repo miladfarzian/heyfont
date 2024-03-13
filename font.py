@@ -4,13 +4,8 @@ import json
 import base64
 import streamlit as st
 from fontTools.ttLib import TTFont
+import fake_useragent
 
-try:
-    import fake_useragent
-except ModuleNotFoundError:
-    print("fake_useragent library not found. Installing...")
-    os.system("pip install fake-useragent")
-    import fake_useragent
 
 
 def fetch_fonts_from_api(api_url):
